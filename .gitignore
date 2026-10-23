@@ -1,0 +1,4 @@
+# controller scaffold builds
+03-controller/guest-controller/bin/
+*.test
+.DS_Store

@@ -1,0 +1,9 @@
+# Three-node cluster: one control plane, two workers, so node-vs-node
+# comparisons (05-debug-drills) have something to compare.
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+name: gdc-lab
+nodes:
+  - role: control-plane
+  - role: worker
+  - role: worker

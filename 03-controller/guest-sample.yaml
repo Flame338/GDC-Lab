@@ -1,0 +1,7 @@
+apiVersion: lab.gdc.dev/v1alpha1
+kind: Guest
+metadata:
+  name: guest-a
+spec:
+  image: busybox:1.36
+  running: true
